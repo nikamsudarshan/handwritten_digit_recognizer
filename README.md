@@ -29,7 +29,7 @@ This project bridges that gap by implementing a custom Computer Vision preproces
 * **User Interface:** Gradio
 
 ## 📸 Preview
-`![App Demo](assets/demo_screenshot.png)`
+*`![App Demo](assets/demo_screenshot.png)`*
 
 ## 🧠 The Preprocessing Pipeline Explained
 
@@ -46,7 +46,7 @@ If you prefer to run this on your local machine instead of Google Colab:
 
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/nikamsudarshan/handwritten_digit_recognizer.git](https://github.com/nikamsudarshan/handwritten_digit_recognizer.git)
+   git clone https://github.com/nikamsudarshan/handwritten_digit_recognizer.git
    ```
    
 2. Install the required dependencies:
