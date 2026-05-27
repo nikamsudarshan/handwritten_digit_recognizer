@@ -18,7 +18,8 @@ This project bridges that gap by implementing a custom Computer Vision preproces
 ### Key Features
 * **Custom ANN Architecture:** Built using TensorFlow/Keras with Dense layers, ReLU activation, and Dropout for regularization.
 * **Interactive UI:** Leverages Gradio to provide a digital canvas for real-time inference.
-* **Automated Image Preprocessing:** * Inverts RGBA canvas strokes to grayscale (White text on Black background).
+* **Automated Image Preprocessing:**
+  * Inverts RGBA canvas strokes to grayscale (White text on Black background).
   * Implements dynamic bounding-box cropping to auto-center digits, regardless of where they are drawn on the canvas.
   * Applies thresholding and padding to mimic MNIST framing.
 
@@ -29,7 +30,7 @@ This project bridges that gap by implementing a custom Computer Vision preproces
 * **User Interface:** Gradio
 
 ## 📸 Preview
-*`![App Demo](assets/demo_screenshot.png)`*
+*`![App Demo](/assets/demo_screenshot.png)`*
 
 ## 🧠 The Preprocessing Pipeline Explained
 
@@ -45,15 +46,14 @@ To ensure the model achieves high accuracy on live drawings, the raw input from 
 If you prefer to run this on your local machine instead of Google Colab:
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/nikamsudarshan/handwritten_digit_recognizer.git
-   ```
-   
-2. Install the required dependencies:
 
 ```bash
+git clone https://github.com/nikamsudarshan/handwritten_digit_recognizer.git
+```
+   
+2. Install the required dependencies:
+ ```bash
 pip install -r requirements.txt
-
 ```
 
 3.Open the Jupyter Notebook and run the cells sequentially:
