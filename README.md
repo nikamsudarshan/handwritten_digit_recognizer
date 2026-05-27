@@ -30,7 +30,7 @@ This project bridges that gap by implementing a custom Computer Vision preproces
 * **User Interface:** Gradio
 
 ## 📸 Preview
-*`![App Demo](/assets/demo_screenshot.png)`*
+*`![App Demo](/handwritten_digit_recognizer/assets/demo_screenshot.png)`*
 
 ## 🧠 The Preprocessing Pipeline Explained
 
